@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  width: 100%;
+  font-size: 32px;
+  color: #3333;
+  :global .el-menu {
+    flex:1;
+    border:none;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
+.logo {
+  background: url("./image/icon.svg") no-repeat center;
+  width: 28px;
+  height: 60px;
+}
