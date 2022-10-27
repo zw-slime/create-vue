@@ -1,11 +1,11 @@
 .header {
   display: flex;
   width: 100%;
-  font-size: 32px;
   color: #3333;
+  font-size: 32px;
   :global .el-menu {
-    flex:1;
-    border:none;
+    flex: 1;
+    border: none;
   }
 
   a {
@@ -13,7 +13,7 @@
   }
 }
 .logo {
-  background: url("./image/icon.svg") no-repeat center;
   width: 28px;
   height: 60px;
+  background: url('./image/icon.svg') no-repeat center;
 }

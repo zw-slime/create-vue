@@ -7,7 +7,8 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
-    Card: typeof import('./src/components/card/card.vue')['default']
+    Card: typeof import('./src/components/cardResource/card.vue')['default']
+    CardResource: typeof import('./src/components/cardResource/cardResource.vue')['default']
     ElButton: typeof import('element-plus/es')['ElButton']
     ElCheckbox: typeof import('element-plus/es')['ElCheckbox']
     ElCheckboxGroup: typeof import('element-plus/es')['ElCheckboxGroup']
@@ -39,7 +40,8 @@ declare module '@vue/runtime-core' {
     RouterView: typeof import('vue-router')['RouterView']
     TheWelcome: typeof import('./src/components/TheWelcome.vue')['default']
     UploadModal: typeof import('./src/components/nav-bar/uploadModal.vue')['default']
-    Waterfull: typeof import('./src/components/waterfull/waterfull.vue')['default']
+    Waterfull: typeof import('./src/components/waterfullCard/waterfull.vue')['default']
+    WaterfullCard: typeof import('./src/components/waterfullCard/waterfullCard.vue')['default']
     WelcomeItem: typeof import('./src/components/WelcomeItem.vue')['default']
   }
 }
