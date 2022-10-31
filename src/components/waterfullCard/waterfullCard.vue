@@ -7,8 +7,7 @@
         placeholder="超过40亿灵感等你来发现"
         :suffix-icon="Search"
         @change="inputChange"
-        maxlength="20"
-        show-word-limit
+        maxlength="100"
         clearable
       />
     </div>

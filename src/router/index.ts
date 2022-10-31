@@ -10,6 +10,11 @@ const router = createRouter({
       component: HomeView,
     },
     {
+      path: '/',
+      name: 'logo',
+      component: HomeView,
+    },
+    {
       path: '/resource',
       name: 'resource',
       component: HomeView,
